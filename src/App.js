@@ -50,7 +50,7 @@ function App() {
       setLoading(false);
     };
     getPost();
-  }, []);
+  }, [loading]);
 
   useEffect(() => {
     const getUsers = async () => {
@@ -62,7 +62,7 @@ function App() {
       setLoading(false);
     };
     getUsers();
-  }, []);
+  }, [loading]);
 
   useEffect(() => {
     const getPhotos = async () => {
@@ -75,7 +75,7 @@ function App() {
       setLoading(false);
     };
     getPhotos();
-  }, []);
+  }, [loading]);
 
   const handleUserClick = (selectedUser) => {
     setSelectedUser(selectedUser);
