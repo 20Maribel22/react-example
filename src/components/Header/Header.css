@@ -1,0 +1,13 @@
+.header__link {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header__link:hover {
+    color: grey;
+}
+
+.header__link-active {
+    color: grey;
+}

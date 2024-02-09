@@ -1,0 +1,51 @@
+.confirm__wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* backdrop-filter: blur(10px); */
+  }
+  
+  .confirm__wrapper.open {
+    height: 100%;
+    display: block;
+  }
+  
+  .confirm__wrapper.close {
+    height: 0;
+    display: none;
+  }
+  .confirm__body {
+    max-width: 250px;
+    margin: auto;
+    background: white;
+    margin-top: 15%;
+    padding: 0 10px 10px;
+    border-radius: 5px;
+    max-height: 400px;
+  }
+  
+
+
+
+
+.confirm__close {
+    font-size: 26px;
+    color: grey;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    
+
+}
+
+
+
+.confirm__title {
+    font-size: 22px;
+    margin: 10px;
+}
+
+.confirm__btn {
+    margin: 15px 0 0 5px;
+}

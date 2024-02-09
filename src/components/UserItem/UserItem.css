@@ -1,0 +1,65 @@
+
+
+.user__name {
+    text-align: start;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    
+    .user__description {
+      color: #000;
+      display: flex;
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      /* position: relative;
+      font-size: 14px;
+      color: black;
+      width: 250px; */
+    }
+    
+    .user__item {
+      /* width: 282px;
+      height: 200px; */
+      border: 1px solid;
+      background-color: #d3d3d3;
+      margin: 0;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: start;
+      color: black;
+    }
+    
+    .user__username {
+      
+        margin: 0;
+        
+        font-size: 20px;
+        line-height: 22px;
+        position: relative;
+        display: inline-block;
+        word-wrap: break-word;
+        overflow: hidden;
+       
+        max-height: 3.6em; /* (Number of lines you want visible) * (line-height) */
+        line-height: 1.2em;
+      
+        
+    }
+    
+    .user__btn-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+    }
+    .user__btn {
+      margin-left: 5px;
+      width: 45px;
+      font-size: 13px !important;
+      padding: 0 !important;
+      cursor: pointer;
+      
+    }
